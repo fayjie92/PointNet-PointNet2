@@ -1,0 +1,32 @@
+### abdur r fayjie 
+### fayjie92@gmail.com  
+
+
+# usage: conda-env create -f environment_config.yml
+# conda env update   --file environment_config.yml
+
+# activate the conda environment by running,
+# conda activate pointnet
+
+# to deactivate the conda environment run,
+# conda deactivate
+
+
+name: pointnet
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python=3.8
+    - pip
+
+    - pip:
+      - jupyter 
+      - torch  
+      - torchvision
+      - numpy
+      - tqdm
+      - pyvista 
+      - ipygany
+      - tensorboard 
+      - torchsummary
