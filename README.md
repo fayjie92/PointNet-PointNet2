@@ -20,10 +20,10 @@ Qi, Charles R., et al. "Pointnet++: Deep hierarchical feature learning on point 
 
 
 ## How to run the code?
-#### Directory Structure
+### Directory Structure
 ![image](.description/dir_structure.jpg)
    
-#### To set up the environment
+### To set up the environment
 Make sure you have anaconda installed. (https://www.anaconda.com/products/individual)
 
 run:
@@ -32,7 +32,7 @@ run:
 activate conda environment:
 ```conda activate pointnet```
    
-#### To run the code
+### To run the code
 ```cd``` to the ```PointNet-PointNet2``` directory.
 
 Launch jupyter notebook by executing,
@@ -44,5 +44,5 @@ Additionally, we can also run the ```.py``` files by executing,
 ```python <filename>.py```. The filenames for ```.py``` files correspond the jupyter-notebook files.
 
 
-### Feedback
+## Feedback
 contact: fayjie92@gmail.com 
