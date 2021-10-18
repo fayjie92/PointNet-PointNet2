@@ -1,0 +1,10 @@
+# How to download the data?
+
+To Download ModelNet40 Dataset, visit the link:
+https://modelnet.cs.princeton.edu/
+
+To Download S3DIS Dataset, visit the link:
+http://buildingparser.stanford.edu/dataset.html#Download
+
+
+Donot forget to unzip the data after downloading.
