@@ -17,13 +17,3 @@ class_dist = [726, 156, 615, 193, 672, 435, 84, 297, 989, 187, 99,
 classes_s3dis = ['ceiling', 'floor', 'wall', 'beam', 'column',
  'window', 'door', 'table', 'chair', 'sofa', 'bookcase',
   'board', 'clutter']
-
-
-def seg_label_to_cat():
-    class2label = {cls: i for i, cls in enumerate(classes_s3dis)}
-    seg_classes = class2label
-    seg_label_to_cat = {}
-    for i, cat in enumerate(seg_classes.keys()):
-        seg_label_to_cat[i] = cat
-
-    return seg_label_to_cat[i]
