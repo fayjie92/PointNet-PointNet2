@@ -32,6 +32,17 @@ run:
 activate conda environment:
 ```conda activate pointnet```
    
+### datasets
+* Classification: 
+  To Download ModelNet40 Dataset, visit the link:
+  https://modelnet.cs.princeton.edu/
+
+* Segmentation:
+  To Download S3DIS Dataset, visit the link:
+  http://buildingparser.stanford.edu/dataset.html#Download
+
+* When downloaded, unzip the data to the data directory.
+
 ### To run the code
 ```cd``` to the ```PointNet-PointNet2``` directory.
 
